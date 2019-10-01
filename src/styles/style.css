@@ -373,3 +373,29 @@ iframe {
   margin-right: auto;
   padding-top: 170px;
 }
+
+.menu-marker {
+  position: absolute;
+  bottom: 12px;
+  left: calc(50% - 20px);
+  text-align: center;
+  color: white;
+}
+
+@keyframes cursor { /* Анимация движения стрелки */
+  0%  {transform:translate(0); opacity:0; -webkit-transform:translate(0); -moz-transform:translate(0); -ms-transform:translate(0); -o-transform:translate(0);}
+  75% {transform:translate(0, -14px); opacity:1; -webkit-transform:translate(0, -14px); -moz-transform:translate(0, -14px); -ms-transform:translate(0, -14px); -o-transform:translate(0, -14px);}
+  100%{transform:translate(0, -14px); opacity:0; -webkit-transform:translate(0, -14px); -moz-transform:translate(0, -14px); -ms-transform:translate(0, -14px); -o-transform:translate(0, -14px);}
+}
+
+.cursor span {
+  font-size: 17pt;
+  left: 14px;
+  animation: cursor 2s ease-in-out infinite; /* Применяем анимацию движения стрелки */
+  -webkit-animation: cursor 2s ease-in-out infinite;
+  -moz-animation: cursor 2s ease-in-out infinite;
+  -o-animation: cursor 2s ease-in-out infinite;
+  -ms-animation: cursor 2s ease-in-out infinite;
+  
+  opacity: 0;
+}

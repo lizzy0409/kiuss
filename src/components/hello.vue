@@ -1,6 +1,15 @@
 <template>
 
   <div class="hello container">
+    <div class="greetings">
+      <div class="words">
+        <div class="word-1">This is</div>
+        <div class="word-2">Kiuss Group</div>
+        <div class="word-3">Official</div>
+        <div class="word-4">Site</div>
+      </div>
+    </div>
+
     <div class="menu-marker">
       <div class="cursor"><span>↑</span></div><br>
       <p id="msg" class="ru none" style="opacity:0;">{{msg_ru}}</p>
@@ -53,28 +62,55 @@
   top: 0px;
 }
 
-.menu-marker {
-  position: absolute;
-  bottom: 12px;
-  left: calc(50% - 20px);
-  text-align: center;
+.greetings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.words {
+  text-align: left;
+  font-weight: bold;
+  text-align: left;
+  font-size: 30pt;
+  line-height: 42px;
   color: white;
 }
 
-@keyframes cursor { /* Анимация движения стрелки */
-  0%  {transform:translate(0); opacity:0; -webkit-transform:translate(0); -moz-transform:translate(0); -ms-transform:translate(0); -o-transform:translate(0);}
-  75% {transform:translate(0, -14px); opacity:1; -webkit-transform:translate(0, -14px); -moz-transform:translate(0, -14px); -ms-transform:translate(0, -14px); -o-transform:translate(0, -14px);}
-  100%{transform:translate(0, -14px); opacity:0; -webkit-transform:translate(0, -14px); -moz-transform:translate(0, -14px); -ms-transform:translate(0, -14px); -o-transform:translate(0, -14px);}
+@keyframes greetings { /* Анимация слов */
+  0%  {transform:translate(0, 20px); opacity:0;}
+  80%{transform:translate(0, 0); opacity:1;}
+  100%{transform:translate(0, 0); opacity:0;}
 }
 
-.cursor span {
-  font-size: 17pt;
-  left: 14px;
-  animation: cursor 2s ease-in-out infinite; /* Применяем анимацию движения стрелки */
-  -webkit-animation: cursor 2s ease-in-out infinite;
-  -moz-animation: cursor 2s ease-in-out infinite;
-  -o-animation: cursor 2s ease-in-out infinite;
-  -ms-animation: cursor 2s ease-in-out infinite;
+.word-1 {
+  animation: greetings 8.2s cubic-bezier(.14,1.68,.33,.96); /* Применяем анимацию движения стрелки */
+  animation-delay: 3000ms;
+  opacity: 0;
 }
+
+.word-2 {
+  animation: greetings 7.8s cubic-bezier(.14,1.68,.33,.96); /* Применяем анимацию движения стрелки */
+  animation-delay: 3400ms;
+  opacity: 0;
+}
+
+.word-3 {
+  animation: greetings 7.4s cubic-bezier(.14,1.68,.33,.96); /* Применяем анимацию движения стрелки */
+  animation-delay: 3800ms;
+  opacity: 0;
+}
+
+.word-4 {
+  animation: greetings 7s cubic-bezier(.14,1.68,.33,.96); /* Применяем анимацию движения стрелки */
+  animation-delay: 4200ms;
+  opacity: 0;
+}
+
+
+
+
 
 </style>

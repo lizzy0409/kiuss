@@ -259,7 +259,29 @@ ul.mobile {
 }
 
 .menu-marker {
+	display: block;
+	position: absolute;
+	top: calc(50% - 12px);
+	left: 13px;
+	text-align: center;
+	color: rgb(10, 10, 10);
+	bottom: auto;
+}
+
+#msg {
 	display: none;
+}
+
+.cursor span {
+  font-size: 17pt;
+  left: 14px;
+	color: white;
+	animation: cursor 2s ease-in-out 3; /* Применяем анимацию движения стрелки */
+  -webkit-animation: cursor 2s ease-in-out 3;
+  -moz-animation: cursor 2s ease-in-out 3;
+  -o-animation: cursor 2s ease-in-out 3;
+	-ms-animation: cursor 2s ease-in-out 3;
+	animation-delay: 11200ms;
 }
 
 /* Правила отображения меню на заглавной странице */
