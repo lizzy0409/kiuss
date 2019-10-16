@@ -28,6 +28,7 @@ const Other = r => require.ensure([], () => r(require('./components/other.vue'))
 const CasualPasserby = r => require.ensure([], () => r(require('./components/casual_passerby.vue')))
 const AnotherView = r => require.ensure([], () => r(require('./components/another_view.vue')))
 const TheArkOfCulture = r => require.ensure([], () => r(require('./components/the_ark_of_culture.vue')))
+const ConcreteAround = r => require.ensure([], () => r(require('./components/concrete_around.vue')))
 
 Vue.use(VueResource)
 Vue.use(VueRouter)
@@ -64,7 +65,8 @@ var router = new VueRouter({
         {path: '/other', component: Other},
         {path: '/casual_passerby', component: CasualPasserby},
         {path: '/another_view', component: AnotherView},
-        {path: '/the_ark_of_culture', component: TheArkOfCulture}
+        {path: '/the_ark_of_culture', component: TheArkOfCulture},
+        {path: '/concrete_around', component: ConcreteAround}
     ]
 })
 

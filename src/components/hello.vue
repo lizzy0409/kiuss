@@ -62,6 +62,12 @@
   top: 0px;
 }
 
+@media screen and (max-width: 767px) {
+  .hello {
+    background-image: url(../assets/favicons/bgm.jpg);
+  }
+}
+
 .greetings {
   display: flex;
   flex-direction: column;
@@ -108,5 +114,7 @@
   animation-delay: 4200ms;
   opacity: 0;
 }
+
+
 
 </style>

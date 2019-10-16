@@ -178,7 +178,7 @@ div.table-cell {
 	transition: all 0.5s;
 } 
 	
-button.blackbutton {
+.blackbutton {
 	text-decoration: none;
 	user-select: none;
 	outline: none;
@@ -191,6 +191,11 @@ button.blackbutton {
 	padding: 0;
 	font-family: helvetica-cyr-light;
 	text-align: left;
+	padding-top: 3px;
+	padding-bottom:2 px;
+	font-size: 285%;
+	font-family: helvetica-cyr-light, helvetica-latin-light;
+	font-weight: bold;
 
 	transition: 0.2s;
 	-webkit-transition: 0.2s;
@@ -198,15 +203,6 @@ button.blackbutton {
 	-ms-transition: 0.2s;
 	-o-transition: 0.2s;
 }
-
-button.blackbutton p {
-	line-height: 15px;
-	padding-top: 3px;
-	padding-bottom:2 px;
-	font-size: 360%;
-	font-family: helvetica-cyr-light, helvetica-latin-light;
-	font-weight: bold;
-}	
 
 button {
 	border: none;

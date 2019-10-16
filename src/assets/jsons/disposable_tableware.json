@@ -2,8 +2,7 @@
 [
     { "id": 1,
       "title": null,
-      "body":  "Серия инсталляций «Тарелочки»<br>Одноразовая посуда, аэрозольные краски, 2012 - 2014гг",
-      "ebody": "A series of urban installations «Disposable Tableware»<br>Disposable tableware, spray paint, 2012 - 2014",
+      "body": null,
       "img": "src/assets/images/projects/disposable_tableware/1.jpg"
     },
     {

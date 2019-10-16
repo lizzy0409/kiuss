@@ -2,30 +2,23 @@
   <div class="container">
     <div class="sub-container">
       <!-- Контент не показывается во время загрузки -->
-      <pre class="annotation_ru none" style="text-align: left; opacity:0;">Как и в других наших инсталляциях, мы подмешиваем в городской экстерьер неуместные означающие, нарушая привычную знаковую систему города. В рамках этой серии было поклеено более 100 таких инсталляций.
-      <br>Серия инсталляций «Тарелочки»<br>Одноразовая посуда, аэрозольные краски, 2012 - 2014
-      </pre>
-      <pre class="annotation_en" style="text-align: left;">As in our other installations, we mix inappropriate signifying in the city exterior, breaking the usual sign system of the city. Within the framework of this series, more than 100 such installations were glued together.
-        <br>A series of urban installations «Disposable Tableware»<br>Disposable tableware, spray paint, 2012 - 2014
-      </pre>
+      <pre class="annotation_ru none" style="text-align: left; opacity:0;">Серия уличных постеров «Вокруг бетон»<br>Бумага, 100x100см, 2019</pre>
+      <pre class="annotation_en" style="text-align: left;">A series of street posters «Concrete Around»<br>Paper, 100x100cm, 2019"</pre> 
       <br/>
       <div
-        class="disposable_tableware"
-        v-for="(disposable_tableware, index) in disposable_tablewareArray"
+        class="concrete_around"
+        v-for="(concrete_around, index) in concrete_aroundArray"
         v-bind:index="index"
-        v-bind:key="disposable_tableware.index"
+        v-bind:key="concrete_around.index"
       >
         <!-- При использовании v-for на компонентах обязательно указывать key и явно использовать входные параметры -->
-        <h3>{{disposable_tableware.title}}</h3>
+        <h3>{{concrete_around.title}}</h3>
         <!-- Заголовок -->
-        <pre
-          class="ru none"
-          style="text-align: left; opacity:0;"
-          v-html="disposable_tableware.body"
-        ></pre>
-        <pre class="en" style="text-align: left;" v-html="disposable_tableware.ebody"></pre>
+        <pre class="ru none" style="text-align: left; opacity:0;" v-html="concrete_around.body"></pre>
+        <!-- Текст -->
+        <pre class="en" style="text-align: left;" v-html="concrete_around.ebody"></pre>
         <div v-lazy-container="{ selector: 'img' }">
-          <img v-bind:data-src="disposable_tableware.img" />
+          <img v-bind:data-src="concrete_around.img" />
           <!-- Картинка -->
         </div>
       </div>
@@ -37,8 +30,8 @@
 module.exports = {
   data: function() {
     return {
-      disposable_tablewareJSON: "src/assets/jsons/disposable_tableware.json", //Адрес к массиву json-данных постов
-      disposable_tablewareArray: [] //Сюда записывается ответ (response) от get-запроса
+      concrete_aroundJSON: "src/assets/jsons/concrete_around.json", //Адрес к массиву json-данных постов
+      concrete_aroundArray: [] //Сюда записывается ответ (response) от get-запроса
     };
   },
 
@@ -46,9 +39,9 @@ module.exports = {
     getAllPosts: function() {
       //Метод получения ВСЕХ данных из json-файла
       //Сначала получаем json-файл, затем записываем в массив данные из него, затем применяем jq плагин transition
-      this.$http.get(this.disposable_tablewareJSON).then(
+      this.$http.get(this.concrete_aroundJSON).then(
         function(response) {
-          this.disposable_tablewareArray = response.data;
+          this.concrete_aroundArray = response.data;
         },
         function(error) {}
       );

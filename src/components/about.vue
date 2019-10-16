@@ -48,16 +48,21 @@ CV можно скачать <a href="https://docs.google.com/document/d/1A6qGl9
 
 Публикации и медиа:
 
-<a  target="_blank" href="https://www.yuga.ru/news/434018/">В Краснодаре арт-группа Кюс устроила выставку на вершине Шуховской башни</a>
-<a  target="_blank" href="https://www.yuga.ru/articles/society/7992.html">Извращенный город-сад с нарисованными цветами</a>
-<a  target="_blank" href="https://afisha.yuga.ru/photo/205.html">Выставка арт-группы Кюс в «Типографии»</a>
-<a  target="_blank" href="http://www.yuga.ru/news/382703/">«Сакральный символ современного Краснодара» был установлен в центре города</a>
-<a  target="_blank" href="http://www.kublog.ru/blog/kublog/8124.html">Мозаика совриска: от мультиэскпозиции до стрит-арта</a>
-<a  target="_blank" href="http://vku-org.nichost.ru/press/2880-na-krasnodarskih-novostroykah-ustanovili-tablichki-s-blagodarnostyami-gastarbayteram.html">Всемирный конгресс узбеков и узбекистанцев выразил благодарность проекту «Гастарбайтеры под защитой»</a>
-<a  target="_blank" href="http://www.yuga.ru/news/378039/">Гастарбайтеры под защитой</a>
-<a  target="_blank" href="https://vk.com/max_alyokhin?w=wall-45432439_28049">Гид по армии, публикация в журнале «Русская смерть»</a>
-<a  target="_blank" href="http://www.kublog.ru/blog/kublog/1638.html">Выставка «Тепло. Ещё теплее»</a>
-<a  target="_blank" href="http://www.kublog.ru/blog/kublog/1638.html">Фестиваль «Дрейф»</a>  
+<a  target="_blank" href="https://openuni.io/course/22-yuzhnyy-frontir/lesson/1/">"Краснодар. Искусство самозахвата"</a>, Открытый Университет, Октябрь 2019
+<a  target="_blank" href="http://www.yugopolis.ru/news/potomki-inzhenera-shuhova-posetili-vystavku-na-vershine-shuhovskoj-bashni-v-krasnodare-120668">"Потомки инженера Шухова посетили выставку на вершине Шуховской башни в Краснодаре"</a>, Югополис, Июль 2019
+<a  target="_blank" href="https://www.yuga.ru/news/441916/">"В Краснодаре арт-группа «Кюс» откроет «Ковчег культуры»"</a>, Юга.ру, Май 2019
+<a  target="_blank" href="https://www.yuga.ru/news/434018/">"В Краснодаре арт-группа Кюс устроила выставку на вершине Шуховской башни"</a>, Юга.ру, Сентябрь 2018
+<a  target="_blank" href="https://afisha.yuga.ru/news/287761/">"В Краснодаре откроется научно-просветительский центр «Особняк культуры»"</a>, Юга.ру, Июнь 2019
+<a  target="_blank" href="https://www.yuga.ru/articles/society/7992.html">"Извращенный город-сад с нарисованными цветами"</a>, Юга.ру, Апрель 2017
+<a  target="_blank" href="https://afisha.yuga.ru/photo/205.html">"Выставка арт-группы Кюс в «Типографии»"</a>, Юга.ру, Август 2016
+<a  target="_blank" href="http://www.yuga.ru/news/382703/">"«Сакральный символ современного Краснодара» был установлен в центре города"</a>, Юга.ру, Ноябрь 2015
+<a  target="_blank" href="http://vku-org.nichost.ru/press/2880-na-krasnodarskih-novostroykah-ustanovili-tablichki-s-blagodarnostyami-gastarbayteram.html">"Всемирный конгресс узбеков и узбекистанцев выразил благодарность проекту «Гастарбайтеры под защитой»"</a>, Официальный сайт ВКУУ, Сентябрь 2015
+<a  target="_blank" href="http://www.yuga.ru/news/378039/">"Гастарбайтеры под защитой"</a>, Юга.ру, Сентябрь 2015
+<a  target="_blank" href="https://vk.com/wall-45432439_28049">"Гид по армии, публикация в журнале «Русская смерть»"</a>, Журнал Русская Смерть, Сентябрь 2015
+<a  target="_blank" href="http://www.kublog.ru/blog/kublog/8124.html">"Мозаика совриска: от мультиэскпозиции до стрит-арта"</a>, Кублог, Август 2015
+<a  target="_blank" href="https://www.yuga.ru/photo/2718.html">"Выставка «Тепло. Ещё теплее»"</a>, Юга.ру, Март 2014
+<a  target="_blank" href="http://www.kublog.ru/blog/4016.html">"«Тепло, еще теплее»: в поисках современного искусства"</a>, Кублог, Март 2014
+<a  target="_blank" href="http://www.kublog.ru/blog/kublog/1638.html">"Фестиваль «Дрейф»"</a>, Кублог, Июль 2013  
 </pre>
 <pre class="annotation_en" style="text-align: left; padding-top: 0px;">Kiuss Group was formed in 2012 and is based in Krasnodar. The main areas of interest are <a  target="_blank" href="http://instructions.stranno.su/#Bookmark91">street activities</a>, <a href="http://stranno.su/#/neosuprematism">neosuprematism</a> and <a href="http://stranno.su/#/screen_painting">screen painting</a>. The founders of the cultural center <a href="http://stranno.su/#/the_mansion_of_culture">“The Mansion of Culture”</a> and the gallery <a href="http://stranno.su/#/the_high_of_culture">“The High of Culture”</a>, developers of web-application for psychogeography research “Dérive”, the authors of the essay “Instructions for Semiotics”. The latest projects were the <a href="http://stranno.su/#/strange_posters">Strange Posters</a>, <a href="http://stranno.su/#/simulation_of_welfare">The Simulation of Welfare</a> and <a href="http://stranno.su/#/threads">The Threads</a> series, and the largest <a href="http://stranno.su/#/screen_painting">cursor</a> in the world, drawn on the roof of the "Moskovsky" shopping mall. The name of group is nothing more than a meaningless and fancy combination of letters, which illustrates our approach in art as creating a gap between the signifying and the signified. We occasionally participate in exhibitions. In our works we explore the city and apply a semiotic approach to the creation and interpretation of their own works, as well as the reaction to them.
 
@@ -103,18 +108,21 @@ Since 2018 — A series of urban interventions “The X of Culture” (“The So
 
 Publications and Media:
 
-<a  target="_blank" href="https://www.yuga.ru/news/441916/">The art-group Kiuss will open The Ark of Culture</a>
-<a  target="_blank" href="https://www.yuga.ru/news/434018/">The art-group Kiuss organized an exhibition at the top of the Shukhovskaya Tower</a>
-<a  target="_blank" href="https://geometria.ru/announcements/arts/2018/6/1/548968">The opening of the Kiuss group exhibition</a>
-<a  target="_blank" href="https://www.yuga.ru/articles/society/7992.html">“A perverted garden city with flowers drawn on it</a>
-<a  target="_blank" href="https://afisha.yuga.ru/photo/205.html">The art-group Kiuss exhibition in the Typography CCA</a>
-<a  target="_blank" href="http://www.yuga.ru/news/382703/">"The sacral symbol of modern Krasnodar" was installed in the downtown of the city</a>
-<a  target="_blank" href="http://www.kublog.ru/blog/kublog/8124.html">The mosaic of the contemporary art</a>
-<a  target="_blank" href="http://vku-org.nichost.ru/press/2880-na-krasnodarskih-novostroykah-ustanovili-tablichki-s-blagodarnostyami-gastarbayteram.html">The World Congress of Uzbeks expressed gratitude to the “Gastarbeiters Under Protection” project</a>
-<a  target="_blank" href="http://www.yuga.ru/news/378039/">In Krasnodar installed a thank-you plates for the gastarbeiters</a>
-<a  target="_blank" href="https://vk.com/max_alyokhin?w=wall-45432439_28049">The Army Guide</a>
-<a  target="_blank" href="http://www.kublog.ru/blog/kublog/1638.html">“The Wormer. More Wormer” exhibition in Rostov-on-Don”</a>
-<a  target="_blank" href="http://www.kublog.ru/blog/kublog/1638.html">Drifting youth on the rooftops of Krasnodar</a>  
+<a  target="_blank" href="https://openuni.io/course/22-yuzhnyy-frontir/lesson/1/">"Krasnodar. The art of squatting"</a>, The Open University, October 2019
+<a  target="_blank" href="http://www.yugopolis.ru/news/potomki-inzhenera-shuhova-posetili-vystavku-na-vershine-shuhovskoj-bashni-v-krasnodare-120668">"Shukhov's descendants visited an exhibition at the top of the Shukhov Tower in Krasnodar"</a>, Yugopolis, July 2019
+<a  target="_blank" href="https://www.yuga.ru/news/441916/">"The art-group Kiuss will open The Ark of Culture"</a>, Yuga.ru, May 2019
+<a  target="_blank" href="https://www.yuga.ru/news/434018/">"The art-group Kiuss organized an exhibition at the top of the Shukhovskaya Tower"</a>, Yuga.ru, September 2018
+<a  target="_blank" href="https://afisha.yuga.ru/news/287761/">"In Krasnodar will open "The Mansion of Culture"</a>, Yuga.ru, June 2019
+<a  target="_blank" href="https://www.yuga.ru/articles/society/7992.html">"A perverted garden city with flowers drawn on it"</a>, Yuga.ru, April 2017
+<a  target="_blank" href="https://afisha.yuga.ru/photo/205.html">"The art-group Kiuss exhibition in the Typography CCA"</a>, Yuga.ru, August 2016
+<a  target="_blank" href="http://www.yuga.ru/news/382703/">"The sacral symbol of modern Krasnodar" was installed in the downtown of the city"</a>, Yuga.ru, November 2015
+<a  target="_blank" href="http://vku-org.nichost.ru/press/2880-na-krasnodarskih-novostroykah-ustanovili-tablichki-s-blagodarnostyami-gastarbayteram.html">"The World Congress of Uzbeks expressed gratitude to the "Gastarbeiters Under Protection" project"</a>, The Official Site of the WCU, September 2015
+<a  target="_blank" href="http://www.yuga.ru/news/378039/">"In Krasnodar installed a thank-you plates for the gastarbeiters"</a>, Yuga.ru, September 2015
+<a  target="_blank" href="https://vk.com/max_alyokhin?w=wall-45432439_28049">"The Army Guide"</a>, The Russian Death Journal, September 2015
+<a  target="_blank" href="http://www.kublog.ru/blog/kublog/8124.html">"The mosaic of the contemporary art"</a>, Kublog, August 2015
+<a  target="_blank" href="https://www.yuga.ru/photo/2718.html">"The Wormer. More Wormer" exhibition in Rostov-on-Don"</a>, Yuga.ru, March 2014
+<a  target="_blank" href="http://www.kublog.ru/blog/4016.html">"The Wormer. More Wormer": in search of contemporary art"</a>, Kublog, March 2014
+<a  target="_blank" href="http://www.kublog.ru/blog/kublog/1638.html">"Drifting youth on the rooftops of Krasnodar"</a>, Kublog, July 2013 
 </pre><br>
 
     </div>
