@@ -76,7 +76,6 @@ pre {
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 20px;
-	font-weight: normal;
 }
 
 .hello {
@@ -189,13 +188,11 @@ div.table-cell {
 	align-items: center;
 	height: 55px;
 	padding: 0;
-	font-family: helvetica-cyr-light;
 	text-align: left;
 	padding-top: 3px;
 	padding-bottom:2 px;
 	font-size: 285%;
-	font-family: helvetica-cyr-light, helvetica-latin-light;
-	font-weight: bold;
+	font-family: sf-medium;
 
 	transition: 0.2s;
 	-webkit-transition: 0.2s;
@@ -208,7 +205,7 @@ button {
 	border: none;
 	background: #00000000;
 	padding: 0;	
-	font-family: helvetica-cyr-light;	 
+	font-family: sf-light;	 
 }
 
 button::-moz-focus-inner {
@@ -269,8 +266,8 @@ ul.mobile {
 }
 
 .cursor span {
-  font-size: 17pt;
-  left: 14px;
+  font-size: 49pt;
+  left: 5px;
 	color: white;
 	animation: cursor 2s ease-in-out 3; /* Применяем анимацию движения стрелки */
   -webkit-animation: cursor 2s ease-in-out 3;

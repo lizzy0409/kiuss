@@ -1,11 +1,11 @@
 @font-face {
-  font-family: helvetica-cyr-light; 
-  src: url(../assets/fonts/helvetica_neue_cyr_light.otf);
+  font-family: sf-light; 
+  src: url(../assets/fonts/SFUIDisplay-Light.otf);
 }
 
 @font-face {
-  font-family: helvetica-latin-light; 
-  src: url(../assets/fonts/HelveticaNeueLTStd-Lt.otf);
+  font-family: sf-medium; 
+  src: url(../assets/fonts/SFUIDisplay-Medium.otf);
 }
 
 *, *:before, *:after {
@@ -19,12 +19,13 @@
 
 body {
   height:inherit;
-  font-family: helvetica-cyr-light, helvetica-latin-light;
+  font-family: sf-light;
   background-color:#f3f3f3;
   -webkit-font-smoothing: antialiased; /* Антиалиасинг шрифтов */
   overflow-y: scroll; /* Добавляем скролл, чтобы не сдвигался контент */
   overflow-x: hidden;
   padding-left: 7px;
+  font-size: 11pt;
 }
 
 header {
@@ -107,12 +108,11 @@ header:hover ~ .container
 
 pre {
   white-space: pre-wrap; /* Для чтения html-тегов из json */
-  font-family: helvetica-latin-light, helvetica-cyr-light;
+  font-family: sf-light;
   position: absolute;
   right: 15px;
   bottom: 15px;
   text-align: right;
-  font-weight: bold;
 }
 
 pre > a {
@@ -145,13 +145,13 @@ pre > a {
 
 nav {
   font-size: 16px;
-  font-weight: 500;
+  /* font-weight: 500; */
 }
   
 nav a {
   text-decoration: none;
   color: rgb(0, 0, 0);
-  font-weight: bold;
+  font-family: sf-medium;
 }
 
 a {
@@ -396,6 +396,5 @@ iframe {
   -moz-animation: cursor 2s ease-in-out infinite;
   -o-animation: cursor 2s ease-in-out infinite;
   -ms-animation: cursor 2s ease-in-out infinite;
-  
   opacity: 0;
 }

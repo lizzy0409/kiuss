@@ -3,7 +3,7 @@
     <div class="sub-container">
       <!-- Контент не показывается во время загрузки -->
       <pre class="annotation_ru none" style="text-align: left; opacity:0;">Серия уличных постеров «Вокруг бетон»<br>Бумага, 100x100см, 2019</pre>
-      <pre class="annotation_en" style="text-align: left;">A series of street posters «Concrete Around»<br>Paper, 100x100cm, 2019"</pre> 
+      <pre class="annotation_en" style="text-align: left;">A series of street posters «Concrete Around»<br>Paper, 100x100cm, 2019</pre> 
       <br/>
       <div
         class="concrete_around"

@@ -62,12 +62,6 @@
   top: 0px;
 }
 
-@media screen and (max-width: 767px) {
-  .hello {
-    background-image: url(../assets/favicons/bgm.jpg);
-  }
-}
-
 .greetings {
   display: flex;
   flex-direction: column;
@@ -78,7 +72,7 @@
 
 .words {
   text-align: left;
-  font-weight: bold;
+  font-family: sf-medium;
   text-align: left;
   font-size: 30pt;
   line-height: 42px;
