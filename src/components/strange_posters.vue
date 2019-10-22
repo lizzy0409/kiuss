@@ -3,10 +3,10 @@
     <div class="sub-container">
       <!-- Контент не показывается во время загрузки -->
 
-      <pre class="annotation_ru none" style="text-align: left; opacity:0;">Серия уличных постеров (было расклеено порядка 60 штук формата А0), представляющая собой, по сути, краткий манифест проекта <a href="http://stranno.su/#/absurd_inscriptions">абсурдных надписей</a>.
+      <pre class="annotation_ru none" style="text-align: left; opacity:0;">Серия уличных постеров (было расклеено порядка 60 штук формата А0), представляющая собой, по сути, краткий манифест проекта <a href="https://stranno.su/#/absurd_inscriptions">абсурдных надписей</a>.
       <br>Постеры «Странно»<br>Блюбэк, А0, 2018
       </pre>
-      <pre class="annotation_en" style="text-align: left;">A series of street posters (about 60 pieces of A0 format), which is, in fact, a brief manifesto of the project of <a href="http://stranno.su/#/absurd_inscriptions">absurd inscriptions</a>.
+      <pre class="annotation_en" style="text-align: left;">A series of street posters (about 60 pieces of A0 format), which is, in fact, a brief manifesto of the project of <a href="https://stranno.su/#/absurd_inscriptions">absurd inscriptions</a>.
       <br>«Strange posters»<br>Blueback, А0, 2018
       </pre>
       <br />

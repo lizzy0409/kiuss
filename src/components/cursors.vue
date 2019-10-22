@@ -2,10 +2,10 @@
 
   <div class="container">
     <div class="sub-container"> <!-- Контент не показывается во время загрузки -->
-    <pre class="annotation_ru none" style="text-align: left; opacity:0;">В эпоху <a href="http://instructions.stranno.su/#Bookmark25">экранной культуры</a> большую часть времени мы наблюдаем, собственно, сам экран. Экран даёт нам работу и организует наш досуг. 
+    <pre class="annotation_ru none" style="text-align: left; opacity:0;">В эпоху <a href="https://instructions.stranno.su/#Bookmark25">экранной культуры</a> большую часть времени мы наблюдаем, собственно, сам экран. Экран даёт нам работу и организует наш досуг. 
 Так называемые художники во все времена пытались изобразить то, что наблюдали вокруг себя. А посему, мы объявляем о новой фигуративности — фигуративности объектов виртуального мира, метафор пользовательского интерфейса и всех тех образов, что даёт нам Экран.
 </pre>
-<pre class="annotation_en" style="text-align: left;">In the era of <a href="http://instructions.stranno.su/#Bookmark25">screen culture</a> most of the time we observe the screen. The screen gives us work and organizes our leisure time. 
+<pre class="annotation_en" style="text-align: left;">In the era of <a href="https://instructions.stranno.su/#Bookmark25">screen culture</a> most of the time we observe the screen. The screen gives us work and organizes our leisure time. 
 Artists have always tried to portray what they were observing around them. Therefore, we announce a new figurativeness — figurativeness of objects of the virtual world, metaphor of the user interface and all those images that the Screen gives us.
 </pre><br>
       <div class="cursors" v-for="(cursors, index) in cursorsArray" v-bind:index="index" v-bind:key="cursors.index"> <!-- При использовании v-for на компонентах обязательно указывать key и явно использовать входные параметры -->

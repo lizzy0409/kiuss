@@ -6,13 +6,13 @@
 
 Здесь представлены как уличные работы (муралы и инсталляции), так и станковые работы.
 
-В рамках неосупрематизма смотрите также проект <a href="http://stranno.su/#/monotonous_objects">«Тела однотонные»</a>.
+В рамках неосупрематизма смотрите также проект <a href="https://stranno.su/#/monotonous_objects">«Тела однотонные»</a>.
 </pre>
 <pre class="annotation_en" style="text-align: left;">It is an art movement that inherits the tradition of suprematism, but is distinguished by its voluminous rather than flat geometry and rather complex names. If the suprematists tried to find the beginning of painting by removing the background, colour and simplifying the silhouettes, then neosuprematism is not looking for either the beginning or the end of painting, it tries to create a void between the signifying and the signified to find new ways of linking the visual and the conceptual.
 
 Here you can see street works (murals and installations) and plates artwork.
 
-Within the framework of neosuprematism, see also the project <a href="http://stranno.su/#/monotonous_objects">«Monotonous Objects»</a>.
+Within the framework of neosuprematism, see also the project <a href="https://stranno.su/#/monotonous_objects">«Monotonous Objects»</a>.
 </pre><br>
       <div class="neosuprematism" v-for="(neosuprematism, index) in neosuprematismArray" v-bind:index="index" v-bind:key="neosuprematism.index"> 
         <pre class="ru none" style="text-align: left; opacity:0;" v-html="neosuprematism.body"></pre>

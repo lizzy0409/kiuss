@@ -255,10 +255,15 @@ ul.mobile {
 	display: block;
 	position: absolute;
 	top: calc(50% - 12px);
-	left: 13px;
-	text-align: center;
+	left: 22px;
 	color: rgb(10, 10, 10);
-	bottom: auto;
+	height: 50px;
+  width: 25px;
+}
+
+.cursor {
+	width: 25px;
+  height: 50px;
 }
 
 #msg {
@@ -266,9 +271,13 @@ ul.mobile {
 }
 
 .cursor span {
-  font-size: 49pt;
-  left: 5px;
+  font-size: 50px;
+  left: 0px;
 	color: white;
+	height: 50px;
+  top: 0px;
+	line-height: 37px;
+		
 	animation: cursor 2s ease-in-out 3; /* Применяем анимацию движения стрелки */
   -webkit-animation: cursor 2s ease-in-out 3;
   -moz-animation: cursor 2s ease-in-out 3;

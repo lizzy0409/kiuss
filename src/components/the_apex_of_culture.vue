@@ -14,7 +14,7 @@
 «Ненависть к поэзии», Юлия Шафаростова, 21-24 сентября, 2018
 «Выставка #4», Группа Кюс, 5-21 сентября 2018
 
-Документация: <a href="https://vk.com/high_of_culture">vk</a> | <a href="https://www.facebook.com/events/2150624241876116/">fb</a> | СМИ: <a href="https://www.yuga.ru/news/434018/">1</a> <a href="https://kuban24.tv/item/v-krasnodare-na-shuhovskoj-bashne-otkrylsya-proekt-we-will">2</a> <a href="http://www.yugopolis.ru/news/potomki-inzhenera-shuhova-posetili-vystavku-na-vershine-shuhovskoj-bashni-v-krasnodare-120668">3</a> <a href="https://daily.afisha.ru/news/28417-hudozhnik-sad-face-izobrazil-na-vershine-shuhovskoy-bashni-v-krasnodare-ogromnoe-cherno-beloe-lico/">4</a>
+Документация: <a href="https://vk.com/high_of_culture">vk</a> | <a href="https://www.facebook.com/events/2150624241876116/">fb</a> | СМИ: <a href="https://www.yuga.ru/news/434018/">1</a> <a href="https://kuban24.tv/item/v-krasnodare-na-shuhovskoj-bashne-otkrylsya-proekt-we-will">2</a> <a href="https://www.yugopolis.ru/news/potomki-inzhenera-shuhova-posetili-vystavku-na-vershine-shuhovskoj-bashni-v-krasnodare-120668">3</a> <a href="https://daily.afisha.ru/news/28417-hudozhnik-sad-face-izobrazil-na-vershine-shuhovskoy-bashni-v-krasnodare-ogromnoe-cherno-beloe-lico/">4</a>
 </pre>
 <pre class="annotation_en" style="text-align: left;">On the 5th of September 2018 the Shukhov Tower in the center of Krasnodar was captured and transformed into a gallery. The first event was our exhibition called "Exhibition #4". At the moment, several exhibitions of different authors have been organized at the High.
 
@@ -28,7 +28,7 @@ Untitled exhibition, Sad Face, 8 July - 20 July 2019
 «Hatred of Poetry», Julia Shafarostova, 21-24 September 2018
 «Exhibition #4», Kiuss Group, 5-21 September 2018
 
-Documetation: <a href="https://vk.com/high_of_culture">vk</a> | <a href="https://www.facebook.com/events/2150624241876116/">fb</a> | media: <a href="https://www.yuga.ru/news/434018/">1</a> <a href="https://kuban24.tv/item/v-krasnodare-na-shuhovskoj-bashne-otkrylsya-proekt-we-will">2</a> <a href="http://www.yugopolis.ru/news/potomki-inzhenera-shuhova-posetili-vystavku-na-vershine-shuhovskoj-bashni-v-krasnodare-120668">3</a> <a href="https://daily.afisha.ru/news/28417-hudozhnik-sad-face-izobrazil-na-vershine-shuhovskoy-bashni-v-krasnodare-ogromnoe-cherno-beloe-lico/">4</a>
+Documetation: <a href="https://vk.com/high_of_culture">vk</a> | <a href="https://www.facebook.com/events/2150624241876116/">fb</a> | media: <a href="https://www.yuga.ru/news/434018/">1</a> <a href="https://kuban24.tv/item/v-krasnodare-na-shuhovskoj-bashne-otkrylsya-proekt-we-will">2</a> <a href="https://www.yugopolis.ru/news/potomki-inzhenera-shuhova-posetili-vystavku-na-vershine-shuhovskoj-bashni-v-krasnodare-120668">3</a> <a href="https://daily.afisha.ru/news/28417-hudozhnik-sad-face-izobrazil-na-vershine-shuhovskoy-bashni-v-krasnodare-ogromnoe-cherno-beloe-lico/">4</a>
 </pre><br>
       <div class="the_apex_of_culture" v-for="(the_apex_of_culture, index) in the_apex_of_cultureArray" v-bind:index="index" v-bind:key="the_apex_of_culture.index"> <!-- При использовании v-for на компонентах обязательно указывать key и явно использовать входные параметры -->
         <pre v-html="the_apex_of_culture.body"></pre> <!-- Текст -->

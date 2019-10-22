@@ -10,7 +10,7 @@ Kiuss Group was formed in 2012 and is based in Krasnodar. The main areas of inte
 
 ## Project implementation
 
-![](http://stranno.su/src/assets/images/design.png)
+![](https://stranno.su/src/assets/images/design.png)
 
 The project is a SPA-application, each individual project is implemented as a single file vue-component. The main task is to make images of the maximum size, as well as hide all elements of the interface, because 90% of the content of the site will be image galleries.
 
@@ -26,7 +26,7 @@ Features:
 - each "post" on the page is pulled up from the json-data of the GET-request (with the help of vue-resource plugin)
 
 You can check the website by clicking here:
-http://stranno.su
+https://stranno.su
 
 # Кюс
 
@@ -54,4 +54,4 @@ http://stranno.su
 - каждый "пост" на странице подтягивается из json-данных GET-запросом (с помощью плагина vue-resource)
 
 Сайт доступен по адресу:
-http://stranno.su
+https://stranno.su
