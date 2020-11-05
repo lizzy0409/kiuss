@@ -2,7 +2,7 @@
 
 ## Kiuss art-group's website portfolio
 
-Instruments: HTML5, CSS3, Flexbox, JS, Babel, vue.js, jQuery, Webpack, VS Code, npm
+Instruments: HTML5, CSS3, Flexbox, JS, Babel, Nuxt.js, vue.js, jQuery, Webpack, VS Code, npm
 
 ##  About the art-group
 
@@ -32,7 +32,7 @@ https://stranno.su
 
 ## Сайт-портфолио арт-группы Кюс
 
-Инструменты: HTML5, CSS3, Flexbox, JS, Babel, vue.js, jQuery, Webpack, VS Code, npm
+Инструменты: HTML5, CSS3, Flexbox, JS, Babel, Nuxt.js, vue.js, jQuery, Webpack, VS Code, npm
 
 ## Об арт-группе
 

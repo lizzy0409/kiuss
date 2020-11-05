@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://stranno.su/sitemap.xml
+Host: https://stranno.su

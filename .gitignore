@@ -20,7 +20,13 @@ $RECYCLE.BIN/
 *.lnk
 
 #Исключаем зависимости
-node_modules/
+node_modules
 
-#Исключаем скомпилированный код
-dist/
+# logs
+npm-debug.log
+
+# Nuxt build
+.nuxt
+
+# Nuxt generate
+dist
