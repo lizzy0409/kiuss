@@ -12,7 +12,7 @@ Kiuss Group was formed in 2012 and is based in Krasnodar. The main areas of inte
 
 ![](https://stranno.su/src/assets/images/design.png)
 
-The project is a SPA-application, each individual project is implemented as a single file vue-component. The main task is to make images of the maximum size, as well as hide all elements of the interface, because 90% of the content of the site will be image galleries.
+The project is a SPA-application with SSR, each individual project is implemented as a single file vue-component. The main task is to make images of the maximum size, as well as hide all elements of the interface, because 90% of the content of the site will be image galleries.
 
 Features:
 - custom scroll-bar
@@ -40,7 +40,7 @@ https://stranno.su
 
 ## Реализация проекта
 
-Проект является SPA-приложением, каждый отдельный проект реализован в виде однофайлового vue-компонента. Основная задача — сделать изображения максимальной величины, а также скрыть по возможности все элементы интерфейса, так как 90% контента сайта будут представлять собой галереи изображений.
+Проект является SPA-приложением с SSR, каждый отдельный проект реализован в виде однофайлового vue-компонента. Основная задача — сделать изображения максимальной величины, а также скрыть по возможности все элементы интерфейса, так как 90% контента сайта будут представлять собой галереи изображений.
 
 Особенности:
 - кастомный скролл-бар
