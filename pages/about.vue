@@ -1,8 +1,10 @@
 <template>
-
   <div class="container">
     <div class="about sub-container">
-	    <pre class="annotation_ru none" style="text-align: left; opacity:0; padding-top: 0px;">Группа Кюс образована в 2012 году, базируется в Краснодаре. Основные направления — <a target="_blank" href="https://instructions.stranno.su/ru/#street_activities">уличная деятельность</a>, <a href="https://stranno.su/neosuprematism">неосупрематизм</a>, <a href="https://stranno.su/screen_painting">живопись экрана</a>. Название «Кюс» — это не более, чем бессмысленное и вычурное сочетание букв. На данный момент в группе два <i>официальных</i> участника — Макс Алёхин и Дмитрий "Камар" Крамарь, но также есть неофициальные участники (но это не точно). Изредка участвуем в выставках. Последними проектами были постеры <a href="https://stranno.su/strange_posters">«Странно»</a>, серия <a href="https://stranno.su/simulation_of_welfare">«Симуляция благополучия»</a> и <a href="https://stranno.su/threads">«Нити»</a>, а также самый большой <a href="https://stranno.su/screen_painting">курсор</a> в мире, нарисованный на крыше местного ТРЦ.
+      <pre
+        class="annotation_ru none"
+        style="text-align: left; opacity:0; padding-top: 0px;"
+      >Группа Кюс образована в 2012 году, базируется в Краснодаре. Основные направления — <a target="_blank" href="https://instructions.stranno.su/ru/#street_activities">уличная деятельность</a>, <a href="https://stranno.su/neosuprematism">неосупрематизм</a>, <a href="https://stranno.su/screen_painting">живопись экрана</a>. Название «Кюс» — это не более, чем бессмысленное и вычурное сочетание букв. На данный момент в группе два <i>официальных</i> участника — Макс Алёхин и Дмитрий "Камар" Крамарь, но также есть неофициальные участники (но это не точно). Изредка участвуем в выставках. Последними проектами были постеры <a href="https://stranno.su/strange_posters">«Странно»</a>, серия <a href="https://stranno.su/simulation_of_welfare">«Симуляция благополучия»</a> и <a href="https://stranno.su/threads">«Нити»</a>, а также самый большой <a href="https://stranno.su/screen_painting">курсор</a> в мире, нарисованный на крыше местного ТРЦ.
 
 Учредители культурного центра <a href="https://stranno.su/the_mansion_of_culture">«Особняк Культуры»</a> (полное название — Автономная некоммерческая организация в сфере культуры, творчества и искусства "Краснодарский краевой художественно-исследовательский научно-просветительский центр «Особняк Культуры») и галереи <a href="https://stranno.su/the_high_of_culture">«Вершина Культуры»</a>. На данный момент создание таких институций-интервенций превращается в серию, которую нам ещё предстоит отрефлексировать.
 
@@ -67,9 +69,12 @@ CV можно скачать <a target="_blank" href="https://docs.google.com/do
 <a target="_blank" href="http://www.kublog.ru/blog/kublog/8124.html">"Мозаика совриска: от мультиэскпозиции до стрит-арта"</a>, Кублог, Август 2015
 <a target="_blank" href="https://www.yuga.ru/photo/2718.html">"Выставка «Тепло. Ещё теплее»"</a>, Юга.ру, Март 2014
 <a target="_blank" href="http://www.kublog.ru/blog/4016.html">"«Тепло, еще теплее»: в поисках современного искусства"</a>, Кублог, Март 2014
-<a target="_blank" href="http://www.kublog.ru/blog/kublog/1638.html">"Фестиваль «Дрейф»"</a>, Кублог, Июль 2013  
+<a target="_blank" href="http://www.kublog.ru/blog/kublog/1638.html">"Фестиваль «Дрейф»"</a>, Кублог, Июль 2013
 </pre>
-<pre class="annotation_en" style="text-align: left; padding-top: 0px;">Kiuss Group was formed in 2012 and is based in Krasnodar. The main areas of interest are <a target="_blank" href="https://instructions.stranno.su/en/#street_activities">street activities</a>, <a href="https://stranno.su/neosuprematism">neosuprematism</a> and <a href="https://stranno.su/screen_painting">screen painting</a>. The founders of the cultural center <a href="https://stranno.su/the_mansion_of_culture">“The Mansion of Culture”</a> and the gallery <a href="https://stranno.su/the_high_of_culture">“The High of Culture”</a>, developers of web-application for psychogeography research “Dérive”, the authors of the essay “Instructions for Semiotics”. The latest projects were the <a href="https://stranno.su/strange_posters">Strange Posters</a>, <a href="https://stranno.su/simulation_of_welfare">The Simulation of Welfare</a> and <a href="https://stranno.su/threads">The Threads</a> series, and the largest <a href="https://stranno.su/screen_painting">cursor</a> in the world, drawn on the roof of the "Moskovsky" shopping mall. The name of group is nothing more than a meaningless and fancy combination of letters, which illustrates our approach in art as creating a gap between the signifying and the signified. At the moment there are two <i>official</i> participants in the group — Max Alyokhin (born 1994, Krasnodar, Russia) and Dmitry "Kamar" Kramar (born 1995, Krasnodar, Russia), but there are also unofficial participants. We occasionally participate in exhibitions. In our works we explore the city and apply a semiotic approach to the creation and interpretation of their own works, as well as the reaction to them.
+      <pre
+        class="annotation_en"
+        style="text-align: left; padding-top: 0px;"
+      >Kiuss Group was formed in 2012 and is based in Krasnodar. The main areas of interest are <a target="_blank" href="https://instructions.stranno.su/en/#street_activities">street activities</a>, <a href="https://stranno.su/neosuprematism">neosuprematism</a> and <a href="https://stranno.su/screen_painting">screen painting</a>. The founders of the cultural center <a href="https://stranno.su/the_mansion_of_culture">“The Mansion of Culture”</a> and the gallery <a href="https://stranno.su/the_high_of_culture">“The High of Culture”</a>, developers of web-application for psychogeography research “Dérive”, the authors of the essay “Instructions for Semiotics”. The latest projects were the <a href="https://stranno.su/strange_posters">Strange Posters</a>, <a href="https://stranno.su/simulation_of_welfare">The Simulation of Welfare</a> and <a href="https://stranno.su/threads">The Threads</a> series, and the largest <a href="https://stranno.su/screen_painting">cursor</a> in the world, drawn on the roof of the "Moskovsky" shopping mall. The name of group is nothing more than a meaningless and fancy combination of letters, which illustrates our approach in art as creating a gap between the signifying and the signified. At the moment there are two <i>official</i> participants in the group — Max Alyokhin (born 1994, Krasnodar, Russia) and Dmitry "Kamar" Kramar (born 1995, Krasnodar, Russia), but there are also unofficial participants. We occasionally participate in exhibitions. In our works we explore the city and apply a semiotic approach to the creation and interpretation of their own works, as well as the reaction to them.
 
 To understand our methodology, we recommend reading the <a target="_blank" href="https://instructions.stranno.su/en">Instructions</a>.
 
@@ -132,68 +137,92 @@ Publications and Media:
 <a target="_blank" href="http://www.kublog.ru/blog/kublog/8124.html">"The mosaic of the contemporary art"</a>, Kublog, August 2015
 <a target="_blank" href="https://www.yuga.ru/photo/2718.html">"The Wormer. More Wormer" exhibition in Rostov-on-Don"</a>, Yuga.ru, March 2014
 <a target="_blank" href="http://www.kublog.ru/blog/4016.html">"The Wormer. More Wormer": in search of contemporary art"</a>, Kublog, March 2014
-<a target="_blank" href="http://www.kublog.ru/blog/kublog/1638.html">"Drifting youth on the rooftops of Krasnodar"</a>, Kublog, July 2013 
-</pre><br>
-
+<a target="_blank" href="http://www.kublog.ru/blog/kublog/1638.html">"Drifting youth on the rooftops of Krasnodar"</a>, Kublog, July 2013
+</pre>
+      <br />
     </div>
   </div>
-
 </template>
 
 <script>
-
 export default {
-head: {
+  head: {
     title: "About Kiuss Group",
-    meta: [{ hid: "description", name: "description", content: "Группа Кюс — арт-группа, работающая в направлениях стрит-арта, неосупрематизма, живописи экрана и медиа-арта" }]
-  },
-    methods: {  
-      
-      ruen_check: function() {//функция проверяет подзагруженную страницу и приводит к соответствию с выбранным языком  
-        if(ruen_status)
-             {
-               $('.ru').transition({opacity: 0 }, 1, 'cubic-bezier(0.6, 0.04, 0.98, 0.335)');
-               $('.annotation_ru').transition({opacity: 0 }, 1, 'cubic-bezier(0.6, 0.04, 0.98, 0.335)');
-            
-            setTimeout(function(){
-                $('.ru').addClass('none');
-                $('.annotation_ru').addClass('none');
-                $('.en').removeClass('none');
-                $('.annotation_en').removeClass('none').transition({opacity: 1 }, 1, 'cubic-bezier(0.6, 0.04, 0.98, 0.335)');
-                // $('.en').transition({opacity: 1 }, 1, 'cubic-bezier(0.6, 0.04, 0.98, 0.335)');
-               }, 1);
-			   
-             }
-             
-            else
-             {
-                
-               $('.en').transition({opacity: 0 }, 1, 'cubic-bezier(0.6, 0.04, 0.98, 0.335)');
-               $('.annotation_en').transition({opacity: 0 }, 1, 'cubic-bezier(0.6, 0.04, 0.98, 0.335)');
-
-               setTimeout(function(){
-                   $('.en').addClass('none');
-                   $('.annotation_en').addClass('none');
-                   $('.ru').removeClass('none');
-                   $('.annotation_ru').removeClass('none').transition({opacity: 1 }, 1, 'cubic-bezier(0.6, 0.04, 0.98, 0.335)');;
-                  //  $('.ru').transition({opacity: 1 }, 1, 'cubic-bezier(0.6, 0.04, 0.98, 0.335)');
-                  }, 1);
-               
-             }
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "Группа Кюс — арт-группа, работающая в направлениях стрит-арта, неосупрематизма, живописи экрана и медиа-арта"
       }
-    },
-    
-    mounted: function() {//Вызывается синхронно сразу после создания экземпляра
-        this.ruen_check();
-    }
-  }
+    ]
+  },
+  methods: {
+    ruen_check: function() {
+      //функция проверяет подзагруженную страницу и приводит к соответствию с выбранным языком
+      if (ruen_status) {
+        $(".ru").transition(
+          { opacity: 0 },
+          1,
+          "cubic-bezier(0.6, 0.04, 0.98, 0.335)"
+        );
+        $(".annotation_ru").transition(
+          { opacity: 0 },
+          1,
+          "cubic-bezier(0.6, 0.04, 0.98, 0.335)"
+        );
 
+        setTimeout(function() {
+          $(".ru").addClass("none");
+          $(".annotation_ru").addClass("none");
+          $(".en").removeClass("none");
+          $(".annotation_en")
+            .removeClass("none")
+            .transition(
+              { opacity: 1 },
+              1,
+              "cubic-bezier(0.6, 0.04, 0.98, 0.335)"
+            );
+          // $('.en').transition({opacity: 1 }, 1, 'cubic-bezier(0.6, 0.04, 0.98, 0.335)');
+        }, 1);
+      } else {
+        $(".en").transition(
+          { opacity: 0 },
+          1,
+          "cubic-bezier(0.6, 0.04, 0.98, 0.335)"
+        );
+        $(".annotation_en").transition(
+          { opacity: 0 },
+          1,
+          "cubic-bezier(0.6, 0.04, 0.98, 0.335)"
+        );
+
+        setTimeout(function() {
+          $(".en").addClass("none");
+          $(".annotation_en").addClass("none");
+          $(".ru").removeClass("none");
+          $(".annotation_ru")
+            .removeClass("none")
+            .transition(
+              { opacity: 1 },
+              1,
+              "cubic-bezier(0.6, 0.04, 0.98, 0.335)"
+            );
+          //  $('.ru').transition({opacity: 1 }, 1, 'cubic-bezier(0.6, 0.04, 0.98, 0.335)');
+        }, 1);
+      }
+    }
+  },
+
+  mounted: function() {
+    //Вызывается синхронно сразу после создания экземпляра
+    this.ruen_check();
+  }
+};
 </script>
 
 <style>
-
 div.about {
   padding: 160px 100px 0px 100px;
 }
-
 </style>
