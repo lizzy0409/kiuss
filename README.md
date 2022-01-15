@@ -1,5 +1,5 @@
-## Kiuss art-group's website portfolio
+## Kiuss art-group's website
 
-![](https://kiuss.stranno.su/design.png)
+https://kiuss.stranno.su
 
 Stack: HTML5, Sass, Nuxt.js
