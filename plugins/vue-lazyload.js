@@ -1,8 +1,8 @@
-import Vue from 'vue';
-import VueLazyload from 'vue-lazyload';
+import Vue from "vue";
+import VueLazyload from "vue-lazyload";
 
 Vue.use(VueLazyload, {
   preLoad: 9.9,
-  loading: '/favicons/loading.png',
+  loading: "/favicons/puff.svg",
   attempt: 1
 });

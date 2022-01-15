@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://stranno.su/sitemap.xml
-Host: https://stranno.su
+Sitemap: https://kiuss.stranno.su/sitemap.xml
+Host: https://kiuss.stranno.su
