@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://kiuss.stranno.su/hello</loc>
-  </url>
-  <url>
     <loc>https://kiuss.stranno.su/about</loc>
-  </url>
-  <url>
-    <loc>https://kiuss.stranno.su/the_high_of_culture</loc>
-  </url>
-  <url>
-    <loc>https://kiuss.stranno.su/the_mansion_of_culture</loc>
   </url>
   <url>
     <loc>https://kiuss.stranno.su/threads</loc>
@@ -68,9 +59,6 @@
   </url>
   <url>
     <loc>https://kiuss.stranno.su/another_view</loc>
-  </url>
-  <url>
-    <loc>https://kiuss.stranno.su/the_ark_of_culture</loc>
   </url>
   <url>
     <loc>https://kiuss.stranno.su/concrete_around</loc>
