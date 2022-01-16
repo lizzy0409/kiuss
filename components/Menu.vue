@@ -331,6 +331,7 @@
         isDisactive: false, // Маркер видимости всего хедера
         previousScrollPosition: null, // Для работы хедера на десктопе
         isOpen: false, // Для корректной анимации переключения меню
+        timeouts: [],
       }
     },
 
@@ -357,7 +358,7 @@
         if (this.show === false) {
           if (window.scrollY >= 80 && this.previousScrollPosition < window.scrollY) {
             this.isDisactive = true
-          } else {
+          } else if (this.previousScrollPosition - window.scrollY > 20) {
             this.isDisactive = false
           }
           this.previousScrollPosition = window.scrollY
@@ -389,12 +390,17 @@
 
       showPhoto: function(event) {
         if (window.screen.width > 568) {
-          let imgUrl = `background-image: url(${event.target.dataset.img})`
-          this.$store.commit('changeShowImg', imgUrl)
+          this.timeouts.push(
+            setTimeout(() => {
+              let imgUrl = `background-image: url(${event.target.dataset.img})`
+              this.$store.commit('changeShowImg', imgUrl)
+            }, 500)
+          )
         }
       },
       hidePhoto: function() {
         if (window.screen.width > 568) {
+          this.timeouts.forEach((timeout) => clearTimeout(timeout))
           this.$store.commit('changeShowImg', null)
         }
       },
