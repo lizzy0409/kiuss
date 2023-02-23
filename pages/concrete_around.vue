@@ -7,12 +7,12 @@
         all the material that makes it up around you.
       </div>
 
-      <div v-for="(concrete_around, index) in concrete_aroundArray" v-bind:index="index" v-bind:key="concrete_around.index">
+      <div v-for="(concrete_around, index) in concrete_aroundArray" :index="index" :key="concrete_around.index">
         <h3>{{ concrete_around.title }}</h3>
 
         <div class="explication" v-html="concrete_around.ebody"></div>
         <div class="img" v-lazy-container="{ selector: 'img' }">
-          <img v-bind:data-src="concrete_around.img" />
+          <img :data-src="concrete_around.img" />
         </div>
       </div>
     </div>
@@ -23,12 +23,12 @@
         отсылает непосредственно к бетону, сколько вообще ко всем искусственным материалам, из которых формируются города, — это и асфальт, и кирпич, и металл, и пластик — что позволяет как бы
         "обнаружить" вокруг себя город и всё материальное из чего он состоит.
       </div>
-      <div v-for="(concrete_around, index) in concrete_aroundArray" v-bind:index="index" v-bind:key="concrete_around.index">
+      <div v-for="(concrete_around, index) in concrete_aroundArray" :index="index" :key="concrete_around.index">
         <h3>{{ concrete_around.title }}</h3>
 
         <div class="explication" v-html="concrete_around.body"></div>
         <div class="img" v-lazy-container="{ selector: 'img' }">
-          <img v-bind:data-src="concrete_around.img" />
+          <img :data-src="concrete_around.img" />
         </div>
       </div>
     </div>

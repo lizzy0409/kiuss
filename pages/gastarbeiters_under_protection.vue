@@ -12,13 +12,13 @@
         >
         expressed gratitude to the Gastarbeiters Under Protection Project.
       </div>
-      <div v-for="(migrant_workers_under_protection, index) in migrant_workers_under_protectionArray" v-bind:index="index" v-bind:key="migrant_workers_under_protection.index">
+      <div v-for="(migrant_workers_under_protection, index) in migrant_workers_under_protectionArray" :index="index" :key="migrant_workers_under_protection.index">
         <h3>{{ migrant_workers_under_protection.title }}</h3>
 
         <div class="explication" v-html="migrant_workers_under_protection.body"></div>
 
         <div class="img" v-lazy-container="{ selector: 'img' }">
-          <img v-bind:data-src="migrant_workers_under_protection.img" />
+          <img :data-src="migrant_workers_under_protection.img" />
         </div>
       </div>
     </div>
@@ -35,13 +35,13 @@
         >
         выразил благодарность проекту «Гастарбайтеры под защитой».
       </div>
-      <div v-for="(migrant_workers_under_protection, index) in migrant_workers_under_protectionArray" v-bind:index="index" v-bind:key="migrant_workers_under_protection.index">
+      <div v-for="(migrant_workers_under_protection, index) in migrant_workers_under_protectionArray" :index="index" :key="migrant_workers_under_protection.index">
         <h3>{{ migrant_workers_under_protection.title }}</h3>
 
         <div class="explication" v-html="migrant_workers_under_protection.body"></div>
 
         <div class="img" v-lazy-container="{ selector: 'img' }">
-          <img v-bind:data-src="migrant_workers_under_protection.img" />
+          <img :data-src="migrant_workers_under_protection.img" />
         </div>
       </div>
     </div>

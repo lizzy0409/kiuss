@@ -4,13 +4,13 @@
       <div class="annotation">
         This series of photos aims to find some new information in rather prosaic things and landscapes and, perhaps, to turn everyday life into a kind of hobby.
       </div>
-      <div v-for="(another_view, index) in another_viewArray" v-bind:index="index" v-bind:key="another_view.index">
+      <div v-for="(another_view, index) in another_viewArray" :index="index" :key="another_view.index">
         <h3>{{ another_view.title }}</h3>
 
         <div class="explication" v-html="another_view.body"></div>
 
         <div class="img" v-lazy-container="{ selector: 'img' }">
-          <img v-bind:data-src="another_view.img" />
+          <img :data-src="another_view.img" />
         </div>
       </div>
     </div>
@@ -19,13 +19,13 @@
       <div class="annotation">
         Эта серия фотографий ставит своей целью найти в довольно прозаических вещах и пейзажах какую-то новую информацию и, возможно, превратить повседневность в своего рода увлечение.
       </div>
-      <div v-for="(another_view, index) in another_viewArray" v-bind:index="index" v-bind:key="another_view.index">
+      <div v-for="(another_view, index) in another_viewArray" :index="index" :key="another_view.index">
         <h3>{{ another_view.title }}</h3>
 
         <div class="explication" v-html="another_view.body"></div>
 
         <div class="img" v-lazy-container="{ selector: 'img' }">
-          <img v-bind:data-src="another_view.img" />
+          <img :data-src="another_view.img" />
         </div>
       </div>
     </div>
@@ -38,8 +38,8 @@
       title: 'Kiuss — Another View | Кюс — Другой ракурс',
       meta: [
         { property: 'og:title', content: 'Kiuss — Another View | Кюс — Другой ракурс' },
-        { property: 'og:image', content: '../images/photography/another_view/(14).jpg' },
-        { name: 'twitter:image', content: '../images/projects/another_view/(14).jpg' },
+        { property: 'og:image', content: '../images/photography/another_view/14.jpg' },
+        { name: 'twitter:image', content: '../images/projects/another_view/14.jpg' },
       ],
     },
     data: function() {
@@ -74,7 +74,7 @@
             id: 5,
             title: null,
             body: null,
-            img: '/images/photography/another_view/(14).jpg',
+            img: '/images/photography/another_view/14.jpg',
           },
           {
             id: 6,

@@ -7,11 +7,11 @@
         create a void between the signifying and the signified to find new ways of linking the visual and the conceptual. Here you can see street works (murals and installations) and plates artwork.
         Within the framework of neosuprematism, see also the project <a href="/monotonous_objects">«Monotonous Objects»</a>.
       </div>
-      <div v-for="(neosuprematism, index) in neosuprematismArray" v-bind:index="index" v-bind:key="neosuprematism.index">
+      <div v-for="(neosuprematism, index) in neosuprematismArray" :index="index" :key="neosuprematism.index">
         <div class="explication" v-html="neosuprematism.ebody"></div>
         <h3 v-html="neosuprematism.title"></h3>
         <div class="img" v-lazy-container="{ selector: 'img' }">
-          <img v-bind:data-src="neosuprematism.img" />
+          <img :data-src="neosuprematism.img" />
         </div>
       </div>
     </div>
@@ -23,11 +23,11 @@
         связать визуальное и концептуальное. Здесь представлены как уличные работы (муралы и инсталляции), так и станковые работы. В рамках неосупрематизма смотрите также проект
         <a href="/monotonous_objects">«Тела однотонные»</a>.
       </div>
-      <div v-for="(neosuprematism, index) in neosuprematismArray" v-bind:index="index" v-bind:key="neosuprematism.index">
+      <div v-for="(neosuprematism, index) in neosuprematismArray" :index="index" :key="neosuprematism.index">
         <div class="explication" v-html="neosuprematism.body"></div>
         <h3 v-html="neosuprematism.title"></h3>
         <div class="img" v-lazy-container="{ selector: 'img' }">
-          <img v-bind:data-src="neosuprematism.img" />
+          <img :data-src="neosuprematism.img" />
         </div>
       </div>
     </div>

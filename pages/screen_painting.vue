@@ -7,12 +7,12 @@
         interface and all those images that the Screen gives us. However, the reproduction of modern metaphors of the user interface by archaic methods demonstrates the impossibility of such
         reproduction — a human being can reproduce reality on canvas as accurately as he likes, but with "pixel perfect" accuracy he can hardly reproduce the screen.
       </div>
-      <div v-for="(cursors, index) in cursorsArray" v-bind:index="index" v-bind:key="cursors.index">
+      <div v-for="(cursors, index) in cursorsArray" :index="index" :key="cursors.index">
         <div class="explication" v-html="cursors.ebody"></div>
         <h3 v-html="cursors.title"></h3>
 
         <div class="img" v-lazy-container="{ selector: 'img' }">
-          <img v-bind:data-src="cursors.img" />
+          <img :data-src="cursors.img" />
         </div>
       </div>
     </div>
@@ -24,12 +24,12 @@
         метафор пользовательского интерфейса и всех тех образов, что даёт нам Экран. Однако, воспроизведение современных метафор пользовательского интерфейса архаичными методами демонстрирует
         невозможность такого воспроизведения — человек может сколь угодно точно воспроизвести реальность на холсте, но с "pixel perfect" точностью воспроизвести экран вряд ли.
       </div>
-      <div v-for="(cursors, index) in cursorsArray" v-bind:index="index" v-bind:key="cursors.index">
+      <div v-for="(cursors, index) in cursorsArray" :index="index" :key="cursors.index">
         <div class="explication" v-html="cursors.body"></div>
         <h3 v-html="cursors.title"></h3>
 
         <div class="img" v-lazy-container="{ selector: 'img' }">
-          <img v-bind:data-src="cursors.img" />
+          <img :data-src="cursors.img" />
         </div>
       </div>
     </div>

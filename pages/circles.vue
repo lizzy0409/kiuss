@@ -2,12 +2,12 @@
   <div class="sub-container">
     <div v-if="this.$store.state.languageMarker">
       <div class="annotation">A series of urban installations «The Circles»<br />PVC, acrylic, 2013</div>
-      <div v-for="(circles, index) in circlesArray" v-bind:index="index" v-bind:key="circles.index">
+      <div v-for="(circles, index) in circlesArray" :index="index" :key="circles.index">
         <h3>{{ circles.title }}</h3>
 
         <div class="explication" v-html="circles.ebody"></div>
         <div class="img" v-lazy-container="{ selector: 'img' }">
-          <img v-bind:data-src="circles.img" />
+          <img :data-src="circles.img" />
         </div>
       </div>
     </div>
@@ -15,13 +15,13 @@
     <div v-else>
       <div class="annotation">Серия инсталляций «Круги»<br />ПВХ, акрил, 2013</div>
 
-      <div v-for="(circles, index) in circlesArray" v-bind:index="index" v-bind:key="circles.index">
+      <div v-for="(circles, index) in circlesArray" :index="index" :key="circles.index">
         <h3>{{ circles.title }}</h3>
 
         <div class="explication" v-html="circles.body"></div>
 
         <div class="img" v-lazy-container="{ selector: 'img' }">
-          <img v-bind:data-src="circles.img" />
+          <img :data-src="circles.img" />
         </div>
       </div>
     </div>

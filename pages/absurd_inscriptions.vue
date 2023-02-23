@@ -7,12 +7,12 @@
         presented by passersby who are not ready for such messages, and as a result of which there is the
         <a href="https://instructions.stranno.su/en/#the_moment_of_detection" target="_blank">moment of detection</a>. Also see the project with <a href="/strange_posters">posters</a>.
       </div>
-      <div v-for="(absurd_inscriptions, index) in absurd_inscriptionsArray" v-bind:index="index" v-bind:key="absurd_inscriptions.index">
+      <div v-for="(absurd_inscriptions, index) in absurd_inscriptionsArray" :index="index" :key="absurd_inscriptions.index">
         <h3>{{ absurd_inscriptions.title }}</h3>
 
         <div class="explication" v-html="absurd_inscriptions.ebody"></div>
         <div class="img" v-lazy-container="{ selector: 'img' }">
-          <img v-bind:data-src="absurd_inscriptions.img" />
+          <img :data-src="absurd_inscriptions.img" />
         </div>
       </div>
     </div>
@@ -24,13 +24,13 @@
         таким сообщениям, в результате чего и возникает <a href="https://instructions.stranno.su/ru/#the_moment_of_detection" target="_blank">момент обнаружения</a>. Также смотрите проект с
         <a href="/strange_posters">постерами</a>.
       </div>
-      <div v-for="(absurd_inscriptions, index) in absurd_inscriptionsArray" v-bind:index="index" v-bind:key="absurd_inscriptions.index">
+      <div v-for="(absurd_inscriptions, index) in absurd_inscriptionsArray" :index="index" :key="absurd_inscriptions.index">
         <h3>{{ absurd_inscriptions.title }}</h3>
 
         <div class="explication" v-html="absurd_inscriptions.body"></div>
 
         <div class="img" v-lazy-container="{ selector: 'img' }">
-          <img v-bind:data-src="absurd_inscriptions.img" />
+          <img :data-src="absurd_inscriptions.img" />
         </div>
       </div>
     </div>
@@ -43,8 +43,8 @@
       title: 'Kiuss — Absurd Inscriptions | Кюс — Абсурдные фразы',
       meta: [
         { property: 'og:title', content: 'Kiuss — Absurd Inscriptions | Кюс — Абсурдные фразы' },
-        { property: 'og:image', content: '../images/projects/absurd_inscriptions/(2).jpg' },
-        { name: 'twitter:image', content: '../images/projects/absurd_inscriptions/(2).jpg' },
+        { property: 'og:image', content: '../images/projects/absurd_inscriptions/2.jpg' },
+        { name: 'twitter:image', content: '../images/projects/absurd_inscriptions/2.jpg' },
       ],
     },
     data: function() {
@@ -84,7 +84,7 @@
             id: 2,
             title: null,
             body: null,
-            img: '/images/projects/absurd_inscriptions/(2).jpg',
+            img: '/images/projects/absurd_inscriptions/2.jpg',
           },
           {
             id: 3,

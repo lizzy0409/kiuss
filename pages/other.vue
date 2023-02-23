@@ -2,23 +2,23 @@
   <div class="sub-container">
     <div v-if="this.$store.state.languageMarker">
       <div class="annotation">Other</div>
-      <div v-for="(other, index) in otherArray" v-bind:index="index" v-bind:key="other.index">
+      <div v-for="(other, index) in otherArray" :index="index" :key="other.index">
         <div class="explication" v-html="other.ebody"></div>
         <h3 v-html="other.title"></h3>
 
         <div class="img" v-lazy-container="{ selector: 'img' }">
-          <img v-bind:data-src="other.img" />
+          <img :data-src="other.img" />
         </div>
       </div>
     </div>
     <div v-else>
       <div class="annotation">Разное</div>
-      <div v-for="(other, index) in otherArray" v-bind:index="index" v-bind:key="other.index">
+      <div v-for="(other, index) in otherArray" :index="index" :key="other.index">
         <div class="explication" v-html="other.body"></div>
         <h3 v-html="other.title"></h3>
 
         <div class="img" v-lazy-container="{ selector: 'img' }">
-          <img v-bind:data-src="other.img" />
+          <img :data-src="other.img" />
         </div>
       </div>
     </div>

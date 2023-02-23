@@ -3,12 +3,12 @@
     <div v-if="this.$store.state.languageMarker">
       <div class="annotation">A series of posters «DADA»<br />Print on paper, 2012</div>
 
-      <div v-for="(dada_posters, index) in dada_postersArray" v-bind:index="index" v-bind:key="dada_posters.index">
+      <div v-for="(dada_posters, index) in dada_postersArray" :index="index" :key="dada_posters.index">
         <h3>{{ dada_posters.title }}</h3>
 
         <div class="explication" v-html="dada_posters.ebody"></div>
         <div class="img" v-lazy-container="{ selector: 'img' }">
-          <img v-bind:data-src="dada_posters.img" />
+          <img :data-src="dada_posters.img" />
         </div>
       </div>
     </div>
@@ -16,13 +16,13 @@
     <div v-else>
       <div class="annotation">Серия постеров «DADA»<br />Печать на бумаге, 2012</div>
 
-      <div v-for="(dada_posters, index) in dada_postersArray" v-bind:index="index" v-bind:key="dada_posters.index">
+      <div v-for="(dada_posters, index) in dada_postersArray" :index="index" :key="dada_posters.index">
         <h3>{{ dada_posters.title }}</h3>
 
         <div class="explication" v-html="dada_posters.body"></div>
 
         <div class="img" v-lazy-container="{ selector: 'img' }">
-          <img v-bind:data-src="dada_posters.img" />
+          <img :data-src="dada_posters.img" />
         </div>
       </div>
     </div>
@@ -65,7 +65,7 @@
             id: 5,
             title: null,
             body: null,
-            img: '/images/projects/dada_posters/(5).jpg',
+            img: '/images/projects/dada_posters/5.jpg',
           },
           {
             id: 6,

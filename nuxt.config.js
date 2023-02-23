@@ -6,7 +6,7 @@ module.exports = {
 
   // Preloader configuration
   loading: {
-    color: 'black',
+    color: 'grey',
     height: '5px',
     throttle: 200,
   },
@@ -80,7 +80,7 @@ module.exports = {
   router: {
     // prefetchLinks: false,
     scrollBehavior(to, from, savedPosition) {
-      return { x: 0, y: 0 }
+      return { x: 0, y: 0, behavior: 'smooth' }
     },
   },
 

@@ -9,13 +9,13 @@
         wardrobe attendants. Our work reminds us: behind the hypocritical facade of the Cossack paradise is the absence of the past, the helplessness of the present and the impossibility of the
         future."
       </div>
-      <div v-for="(scaffolding, index) in scaffoldingArray" v-bind:index="index" v-bind:key="scaffolding.index">
+      <div v-for="(scaffolding, index) in scaffoldingArray" :index="index" :key="scaffolding.index">
         <h3>{{ scaffolding.title }}</h3>
 
         <div class="explication" v-html="scaffolding.body"></div>
 
         <div class="img" v-lazy-container="{ selector: 'img' }">
-          <img v-bind:data-src="scaffolding.img" />
+          <img :data-src="scaffolding.img" />
         </div>
       </div>
     </div>
@@ -28,13 +28,13 @@
         связанных с существованием и развитием города. Если Краснодар — музей, то его жители либо пассивные зрители, либо спящие гардеробщики. Наша работа напоминает: за лицемерным фасадом казачьего
         рая скрывается отсутствие прошлого, беспомощность настоящего и невозможность будущего.
       </div>
-      <div v-for="(scaffolding, index) in scaffoldingArray" v-bind:index="index" v-bind:key="scaffolding.index">
+      <div v-for="(scaffolding, index) in scaffoldingArray" :index="index" :key="scaffolding.index">
         <h3>{{ scaffolding.title }}</h3>
 
         <div class="explication" v-html="scaffolding.body"></div>
 
         <div class="img" v-lazy-container="{ selector: 'img' }">
-          <img v-bind:data-src="scaffolding.img" />
+          <img :data-src="scaffolding.img" />
         </div>
       </div>
     </div>

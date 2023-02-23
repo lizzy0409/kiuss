@@ -6,11 +6,11 @@
         and three plates, presented as original banners stretched on a stretcher. Read more about the project in the <a href="https://www.yuga.ru/articles/society/7992.html">interview</a> (in
         Russian).
       </div>
-      <div v-for="(simulation_welfare, index) in simulation_welfareArray" v-bind:index="index" v-bind:key="simulation_welfare.index">
+      <div v-for="(simulation_welfare, index) in simulation_welfareArray" :index="index" :key="simulation_welfare.index">
         <div class="explication" v-html="simulation_welfare.ebody"></div>
 
         <div class="img" v-lazy-container="{ selector: 'img' }">
-          <img v-bind:data-src="simulation_welfare.img" />
+          <img :data-src="simulation_welfare.img" />
         </div>
       </div>
     </div>
@@ -20,11 +20,11 @@
         Строительные заборы и прочие неприглядные вещи в нашем городе стали завешивать баннерами с цветочками, в связи с чем родилась серия работ на эту тему. Серия состоит из шести уличных работ и
         трёх «станковых», представленных в виде оригинальных баннеров, натянутых на подрамник. Подробнее о проекте читайте в <a href="https://www.yuga.ru/articles/society/7992.html">интервью</a>.
       </div>
-      <div v-for="(simulation_welfare, index) in simulation_welfareArray" v-bind:index="index" v-bind:key="simulation_welfare.index">
+      <div v-for="(simulation_welfare, index) in simulation_welfareArray" :index="index" :key="simulation_welfare.index">
         <div class="explication" v-html="simulation_welfare.body"></div>
 
         <div class="img" v-lazy-container="{ selector: 'img' }">
-          <img v-bind:data-src="simulation_welfare.img" />
+          <img :data-src="simulation_welfare.img" />
         </div>
       </div>
     </div>

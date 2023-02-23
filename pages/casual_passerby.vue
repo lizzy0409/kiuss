@@ -7,15 +7,15 @@
       </div>
       <div
         v-for="(casual_passerby, index) in casual_passerbyArray"
-        v-bind:index="index"
-        v-bind:key="casual_passerby.index"
+        :index="index"
+        :key="casual_passerby.index"
       >
         <h3>{{ casual_passerby.title }}</h3>
 
         <div class="explication" v-html="casual_passerby.body"></div>
 
         <div class="img" v-lazy-container="{ selector: 'img' }">
-          <img v-bind:data-src="casual_passerby.img" />
+          <img :data-src="casual_passerby.img" />
         </div>
       </div>
     </div>
@@ -27,15 +27,15 @@
       </div>
       <div
         v-for="(casual_passerby, index) in casual_passerbyArray"
-        v-bind:index="index"
-        v-bind:key="casual_passerby.index"
+        :index="index"
+        :key="casual_passerby.index"
       >
         <h3>{{ casual_passerby.title }}</h3>
 
         <div class="explication" v-html="casual_passerby.body"></div>
 
         <div class="img" v-lazy-container="{ selector: 'img' }">
-          <img v-bind:data-src="casual_passerby.img" />
+          <img :data-src="casual_passerby.img" />
         </div>
       </div>
     </div>

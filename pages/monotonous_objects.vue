@@ -7,12 +7,12 @@
         <a href="/neosuprematism">neosuprematist</a> practice, because suprematism investigated colors, colorful figures and their compositions.
       </div>
 
-      <div v-for="(monotonous_objects, index) in monotonous_objectsArray" v-bind:index="index" v-bind:key="monotonous_objects.index">
+      <div v-for="(monotonous_objects, index) in monotonous_objectsArray" :index="index" :key="monotonous_objects.index">
         <div class="explication" v-html="monotonous_objects.ebody"></div>
         <h3 v-html="monotonous_objects.title"></h3>
 
         <div class="img" v-lazy-container="{ selector: 'img' }">
-          <img v-bind:data-src="monotonous_objects.img" />
+          <img :data-src="monotonous_objects.img" />
         </div>
       </div>
     </div>
@@ -22,12 +22,12 @@
         перенесённый в него, превращался в подобие инсталляции или даже реди-мейда. Практика <a href="/neosuprematism">неосупрематическая</a>, поскольку супрематизм исследовал цвета, цветовые фигуры и
         их композиции.
       </div>
-      <div v-for="(monotonous_objects, index) in monotonous_objectsArray" v-bind:index="index" v-bind:key="monotonous_objects.index">
+      <div v-for="(monotonous_objects, index) in monotonous_objectsArray" :index="index" :key="monotonous_objects.index">
         <div class="explication" v-html="monotonous_objects.body"></div>
         <h3 v-html="monotonous_objects.title"></h3>
 
         <div class="img" v-lazy-container="{ selector: 'img' }">
-          <img v-bind:data-src="monotonous_objects.img" />
+          <img :data-src="monotonous_objects.img" />
         </div>
       </div>
     </div>

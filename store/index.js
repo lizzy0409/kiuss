@@ -3,6 +3,7 @@ export const state = () => ({
   languageIsInit: false, // Загорается, когда вопрос с языком решён
   projectsOn: false, // Меню с проектами закрыто по-умолчанию
   showImg: null,
+  loading: false
 })
 
 export const mutations = {
@@ -21,4 +22,10 @@ export const mutations = {
   changeShowImg(state, imgUrl) {
     state.showImg = imgUrl
   },
+  loadingOn(state) {
+    state.loading = true
+  },
+  loadingOff(state) {
+    state.loading = false
+  }
 }

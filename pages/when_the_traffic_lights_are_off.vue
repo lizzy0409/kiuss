@@ -6,13 +6,13 @@
         start our own work. <br />2013
       </div>
 
-      <div v-for="(when_the_traffic_lights_are_off, index) in when_the_traffic_lights_are_offArray" v-bind:index="index" v-bind:key="when_the_traffic_lights_are_off.index">
+      <div v-for="(when_the_traffic_lights_are_off, index) in when_the_traffic_lights_are_offArray" :index="index" :key="when_the_traffic_lights_are_off.index">
         <div class="explication" v-html="when_the_traffic_lights_are_off.body"></div>
 
         <h3 v-html="when_the_traffic_lights_are_off.title"></h3>
 
         <div class="img" v-lazy-container="{ selector: 'img' }">
-          <img v-bind:data-src="when_the_traffic_lights_are_off.img" />
+          <img :data-src="when_the_traffic_lights_are_off.img" />
         </div>
       </div>
     </div>
@@ -22,13 +22,13 @@
         Небольшая нарезка из роликов, на которых снят процесс уличной деятельности. Мигающий светофор выступает как аллегория ночи и раннего утра, когда светофоры обычно не работают, а мы начинаем
         своё дело.<br />2013
       </div>
-      <div v-for="(when_the_traffic_lights_are_off, index) in when_the_traffic_lights_are_offArray" v-bind:index="index" v-bind:key="when_the_traffic_lights_are_off.index">
+      <div v-for="(when_the_traffic_lights_are_off, index) in when_the_traffic_lights_are_offArray" :index="index" :key="when_the_traffic_lights_are_off.index">
         <div class="explication" v-html="when_the_traffic_lights_are_off.body"></div>
 
         <h3 v-html="when_the_traffic_lights_are_off.title"></h3>
 
         <div class="img" v-lazy-container="{ selector: 'img' }">
-          <img v-bind:data-src="when_the_traffic_lights_are_off.img" />
+          <img :data-src="when_the_traffic_lights_are_off.img" />
         </div>
       </div>
     </div>
