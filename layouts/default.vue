@@ -12,13 +12,6 @@
       <Loader v-else-if="this.$store.state.loading"/>
     </transition>
 
-    <!-- <div
-
-        style="background-image:url(/images/projects/here_was_vasya/1.jpg)"
-        class="show-photo"
-      >
-      </div> -->
-
     <div :class="{ 'content-out': this.$store.state.projectsOn }" class="container">
       <transition name="slide-fade" mode="out-in">
         <router-view />
