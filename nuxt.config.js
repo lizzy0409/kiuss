@@ -19,7 +19,6 @@ module.exports = {
   plugins: [
     '~/plugins/vue-resource',
     '~/plugins/vue-lazyload',
-    { src: '~/plugins/ga.js', mode: 'client' },
   ],
 
   // Общие мета-теги для всех страниц
@@ -75,6 +74,13 @@ module.exports = {
         color: '#000000',
       },
     ],
+    script: [
+      {
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-JLF997B582',
+        async: true,
+      },
+      { src: '/js/ga.js' },
+    ]
   },
 
   router: {
