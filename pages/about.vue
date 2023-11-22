@@ -4,8 +4,7 @@
       <div>
         Kiuss — is a so-called art group, formed in 2012 and based in Krasnodar. The main areas of interest are
         <a target="_blank" href="https://instructions.stranno.su/en/#street_activities">street activities</a>, <a href="/neosuprematism">neosuprematism</a> and
-        <a href="/screen_painting">screen painting</a>. The name of group is nothing more than a meaningless and fancy combination of letters. At the moment there are two <i>official</i> participants
-        in the group — Max Alyokhin and Dmitry "Kamar" Kramar, but there are also unofficial participants.
+        <a href="/screen_painting">screen painting</a>. The name of group is nothing more than a meaningless and fancy combination of letters. Whether Kiuss exists now and in what membership is unknown.
       </div>
 
       <div>
@@ -25,8 +24,7 @@
       <div>
         Кюс — т.н. арт-группа, образована в 2012 году, базируется в Краснодаре. Основные направления —
         <a target="_blank" href="https://instructions.stranno.su/ru/#street_activities">уличная деятельность</a>, <a href="/neosuprematism">неосупрематизм</a>,
-        <a href="/screen_painting">живопись экрана</a>. Название «Кюс» — это не более, чем бессмысленное и вычурное сочетание букв. На данный момент в группе два <i>официальных</i> участника — Макс
-        Алёхин и Дмитрий "Камар" Крамарь, но также есть неофициальные участники (но это не точно).
+        <a href="/screen_painting">живопись экрана</a>. Название «Кюс» — это не более, чем бессмысленное и вычурное сочетание букв. Существует ли Кюс сейчас и в каком составе неизвестно.
       </div>
 
       <div>
